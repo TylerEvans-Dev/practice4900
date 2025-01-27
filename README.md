@@ -49,7 +49,7 @@ to ignore dir. type
 ``` ./vscode ```
 now save.
 
-### git status adding files and
+## git status
 git status gives the current status of the file
 it is good practice to use this before commiting in your branch
 
@@ -107,6 +107,6 @@ add the stuff as above and commit
 next week we will go over merging and what we will do
 thanks see you next week!
 
-# ADD NAME HERE BELOW
+## ADD NAME HERE BELOW
 
 Tyler Evans u1313811
