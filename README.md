@@ -6,6 +6,12 @@ git. This is a markdown file README.md
 ## starting your own git
 init/start a git this command is used to create a repo
 I have already completed this step here. Do not do this for the tutorial.
+
+to put your name
+``` git config --global user.name "enter your name here" ```
+``` git config --global user.email "enter your email name here" ```
+
+
 ``` git init ```
 
 ## cloning
@@ -82,16 +88,25 @@ use
 it will show commits and history of the repo
 now delete the file you have created
 ``` rm {your file name}.txt ```
-now use the git add command
-``` git add . ```
-and commit it
-```git commit -m "removing a file " ```
-now use
-```git log```
-this will show your past two commits
+say you did something to your file git resotre will bring it back to the original condtion
+it was on your last commit.
+the command
+``` git restore .``` will restore all of the files
+``` git restore {your specific file} ``` will restore your file you wrote
 
+last of all for this beg. tutorial since this is a lot
 
+add your {your file name}.txt to your .gitignore
 
-ADD NAME BELOW
+edit this file and commit at the bottom
+by using
+code ``` code README.md  ```
+
+add the stuff as above and commit
+
+next week we will go over merging and what we will do
+thanks see you next week!
+
+# ADD NAME HERE BELOW
 
 Tyler Evans u1313811
